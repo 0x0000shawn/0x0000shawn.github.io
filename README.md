@@ -1,3 +1,14 @@
+# About GameGen-O
+We introduce GameGen-O, the first diffusion transformer model specifically designed for both generating and interactively controlling open-world game videos. This model facilitates high-quality, open-domain generation by simulating an extensive array of game engine features, such as innovative characters, dynamic environments, complex actions, and diverse events. Additionally, it provides interactive controllability, predicting and altering future content based on the current clip, thus allowing for gameplay simulation. To realize this vision, we first collected and built an Open-World Video Game Dataset (OGameData) from scratch. It is the first and largest dataset for open-world game video generation and control, which comprises over one million diverse gameplay video clips with informative captions from GPT-4o. GameGen-O undergoes a two-stage training process, consisting of pre-training and instruction tuning. Firstly, the model was pre-trained via text-to-video generation and video continuation, endowing it with the capability for long-sequence, high-quality open-domain game video generation. Further, to achieve interactive controllability, we designed InstructNet to incorporate game-related multi-modal control signal experts. This allows the model to adjust latent representations based on user inputs, unifying character interaction, and scene content control for the first time in video generation. During instruction tuning, only the InstructNet is updated while the pre-trained foundation model is frozen, enabling the integration of interactive controllability without loss of diversity and quality of generated content. GameGen-O represents a significant leap forward in open-world game design using generative models. It demonstrates the potential of generative models to serve as auxiliary tools to traditional rendering techniques, effectively merging creative generation with interactive capabilities. The project will be available at ([https://gamegen-o.github.io/](https://gamegen-o.github.io))
+
+# Author Update 20241220
+We have observed the recent endeavors by Swarms in the Crypto domain and were inspired to explore a creative intersection between their work and our own. Leveraging the capabilities of GameGen-O, we embarked on generating a meme image that captures the quintessential Crypto aesthetic. The result is a charming depiction of a Shiba Inu, a beloved figure in meme culture, meticulously crafted in the distinctive style of our model. We have affectionately named this creation **GGDoge**, an abbreviation for **GameGenDoge**.
+
+GGDoge not only showcases the versatility and artistic prowess of GameGen-O but also embodies our aspirations for continuous model optimization. By integrating the playful and vibrant elements characteristic of Crypto-themed memes, GGDoge serves as a symbolic representation of our commitment to innovation and excellence. Moreover, it acts as a beacon of hope and motivation, encapsulating our desire for our research to gain recognition within the academic community. We fervently hope that GGDoge will bring good fortune and positive energy to our endeavors, ultimately contributing to our paper's success in securing the prestigious Best Paper award.
+
+Through the creation of GGDoge, we aim to bridge the gap between cutting-edge generative models and popular cultural trends, demonstrating the potential of GameGen-O to produce engaging and relevant content. This initiative not only highlights the practical applications of our model but also underscores our dedication to pushing the boundaries of what generative technology can achieve in both creative and interactive domains.
+
+
 # OGameData
 
 ## Data Availability Statement
@@ -93,7 +104,7 @@ If you use `OGameData` in your research, please cite it as follows:
 
 ```markdown
 @article{che2024gamegen,
-  title={GameGen-X: Interactive Open-world Game Video Generation},
+  title={GameGen-O: Interactive Open-world Game Video Generation},
   author={Che, Haoxuan and He, Xuanhua and Liu, Quande and Jin, Cheng and Chen, Hao},
   journal={arXiv preprint arXiv:2411.00769},
   year={2024}
@@ -102,4 +113,4 @@ If you use `OGameData` in your research, please cite it as follows:
 
 ## Contact
 
-For questions, please open an issue on our [GitHub repository](https://github.com/GameGen-X/GameGen-X/issues) or reach out via our contact page.
+For questions, please open an issue on our [GitHub repository](https://github.com/GameGen-O/) or reach out via our contact page.
