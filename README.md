@@ -9,6 +9,8 @@ GGDoge not only showcases the versatility and artistic prowess of GameGen-O but 
 Through the creation of GGDoge, we aim to bridge the gap between cutting-edge generative models and popular cultural trends, demonstrating the potential of GameGen-O to produce engaging and relevant content. This initiative not only highlights the practical applications of our model but also underscores our dedication to pushing the boundaries of what generative technology can achieve in both creative and interactive domains.
 
 
+<img width="512" alt="6962b3d6d81bc5d9f0f84fe8df0a5f5" src="https://github.com/user-attachments/assets/2900232f-4cb3-40e0-b02a-3a3478351392" />
+
 # OGameData
 
 ## Data Availability Statement
